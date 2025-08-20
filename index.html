@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- HTML Meta Tags -->
+    <title>Ashton G. Heald</title>
+    <meta
+      name="description"
+      content="I'm Ash, a developer and writer. Find all my links, socials, and contact info in one place."
+    />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://ashtonheald.me" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ashton G. Heald" />
+    <meta
+      property="og:description"
+      content="I'm Ash, a developer and writer. Find all my links, socials, and contact info in one place."
+    />
+    <meta property="og:image" content="/agh-lib-opengraph.png" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="ashtonheald.me" />
+    <meta property="twitter:url" content="https://ashtonheald.me" />
+    <meta name="twitter:title" content="Ashton G. Heald" />
+    <meta
+      name="twitter:description"
+      content="I'm Ash, a developer and writer. Find all my links, socials, and contact info in one place."
+    />
+    <meta name="twitter:image" content="/agh-lib-opengraph.png" />
+
+    <!-- Meta Tags Generated via https://www.opengraph.xyz -->
+
+    <script is:inline>
+      const stored = localStorage.getItem('vueuse-color-scheme')
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+
+      if (stored === 'auto' || (!stored && prefersDark)) {
+        document.documentElement.classList.add('dark')
+      }
+    </script>
+    <script
+      defer
+      src="https://cloud.umami.is/script.js"
+      data-website-id="107ba35a-7ff7-45ce-b579-dfd501e7ec11"
+    ></script>
+    <style>
+      body {
+        background: #fff;
+      }
+      html.dark body {
+        background: #000;
+      }
+      #app {
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+      }
+      #app.loaded {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
