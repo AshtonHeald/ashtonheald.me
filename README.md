@@ -1,13 +1,13 @@
-# ashtonheald.me
+[ashtonheald.me](https://ashtionheald.me)
 
 My custom link in bio website, designed to showcase all the essential aspects of my digital presence.
 
-### Features
+Features
 
 - Personal branding focus
 - Spotify Widget
 
-### Tech Stack
+Tech Stack
 
 - Vue
 - UnoCSS
