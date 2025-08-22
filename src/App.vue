@@ -103,7 +103,7 @@ import ToggleTheme from './components/ToggleTheme.vue'
         </li>
         <li class="flex">
           <a
-            href="https://bsky.app/profile/ashtonheald.me"
+            href="https://buymeacoffee.com/ashtonheald"
             class="group text-center btn-foreground w[42px] h[42px]"
             aria-label="Support what I do"
             title="Buy me a coffee"
